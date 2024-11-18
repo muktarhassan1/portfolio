@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-image: -moz-linear-gradient(0, 0.5);
+    height: 100vh;
+    background-size: cover;
+    background-position: centre;
+    min-height: 100px;
+}
+nav{
+    background-color: white;
+    color: purple;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    display: inline;
+}
+section{
+    padding: 30px 120px;
+    border: 10px;
+    border-color: azure;
+    border-width: 10%;
+    border-style: groove;
+    border-radius: 10px;
+}
+#home{
+    text-align: left;
+    padding-left: 10%;
+    border-style: groove;
+    border-radius: 10%;
+    border-width: 20%;
+    margin-top: 5px;
+}
+button{
+    background: black;
+    color: azure;
+    padding: 5px 10px;
+    margin-left: 15%;
+    gap: 10%;
+}
+#about{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10%;
+    display: flow-root;
+    margin-bottom: -10px;
+}
+skills{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#skills ul{
+    list-style-type: disc;
+    padding: 0%;
+    margin-left: 20%;
+}
+experience{
+    text-align: center;
+    padding-left: 10%;
+}
+experience h2{
+    text-decoration-color: gold;
+}
+contact{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-width: 15%;
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+    margin: 5px;
+    gap: 10%;
+    padding-right: 20%;
+}
+
